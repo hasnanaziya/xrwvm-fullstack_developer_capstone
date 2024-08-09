@@ -13,6 +13,17 @@ img{
   margin-bottom: 1%;
 }
 
+.vertical-line {
+    width: 2px;
+    
+    background-color: #000;
+    margin: 0 auto;
+    transform: rotate(180deg);         
+}
+
+form{
+    margin: 20px;
+}
 .row{
   display: flex;  
   flex: 1;
@@ -123,4 +134,18 @@ img{
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
+}
+
+#contactemail{
+    border: none;
+    text-align: center;
+}
+button{
+    align-self: center;
+}
+#submit{
+    margin:20px;
+    border-radius: 20px;
+    width:40%;
+    align-items: center;
 }
