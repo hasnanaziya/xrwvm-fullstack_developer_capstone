@@ -4,7 +4,7 @@ from django.db import models
 from django.utils.timezone import now
 from django.core.validators import MaxValueValidator, MinValueValidator
 
-#Create a Car Make model `class CarMake(models.Model)`:
+# Create a Car Make model `class CarMake(models.Model)`:
 # - Name
 # - Description
 # - Any other fields needed in car make model
@@ -16,7 +16,7 @@ class CarMake(models.Model):
     def __str__(self):
         return self.name
 
-#Create a Car Model model `class CarModel(models.Model):`:
+# Create a Car Model model `class CarModel(models.Model):`:
 # - Many-To-One relationship to Car Make model (One Car Make has many
 # Car Models, using ForeignKey field)
 # - Name
@@ -38,7 +38,8 @@ class CarModel(models.Model):
         validators=[
             MaxValueValidator(2023),
             MinValueValidator(2015)
-        ])
-    
+            ])
+
     def __str__(self):
         return self.name
+        
