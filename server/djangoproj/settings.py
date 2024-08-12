@@ -28,8 +28,8 @@ SECRET_KEY =\
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'https://hasnanaziya2-8000.theiadockernext-0-labs- \
-                prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
+ALLOWED_HOSTS = ['localhost', 'https://hasnanaziya2-8000.theiadocker \
+            next-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 CSRF_TRUSTED_ORIGINS = ['https://hasnanaziya2-8000.theiadockernext-0-labs- \
                 prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 
