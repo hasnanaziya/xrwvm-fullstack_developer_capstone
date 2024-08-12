@@ -63,7 +63,7 @@ def registration(request):
         User.objects.get(username=username)
         username_exist = True
     except Exception as e:
-        print(f"Error: {e}"):
+        print(f"Error: {e}")
         logger.debug("{} is a new user".format(username))
 
     if not username_exist:
